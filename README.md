@@ -6,6 +6,7 @@ Storyblok’s Content Management System (CMS) platform is the perfect tool to ce
 
 With Storyblok’s Components, you can easily collaborate and communicate the right story for your products. Tailor personal, emotionally- engaging and SEO boosting content for your product pages. Enrich your existing e-commerce solution now, because your customers expect more than generic product information.
 
+
 ## How to use
 
 1. Copy the `_private` folder in your Theme directory
