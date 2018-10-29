@@ -1,4 +1,4 @@
 <?php return array (
-  'token' => 'AwyueJSppBCDcfDb0yvOMwtt',
+  'token' => 'YOUR_PREVIEW_TOKEN',
   'version' => 'draft'
 );
