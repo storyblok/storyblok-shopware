@@ -1,6 +1,10 @@
 # Demo Setup for Shopware with Storyblok
 
-Storyblok’s Content Management System (CMS) platform is the perfect tool to centralize, organize and share all your digital content. Storyblok’s CMS is easy-to-use, yet rich on functionality, enabling you to save time and cut out the hassle when working with content and collaborating with others. With Storyblok’s Components, you can easily collaborate and communicate the right story for your products. Tailor personal, emotionally- engaging and SEO boosting content for your product pages. Enrich your existing e-commerce solution now, because your customers expect more than generic product information.
+Storyblok’s Content Management System (CMS) platform is the perfect tool to centralize, organize and share all your digital content. Storyblok’s CMS is easy-to-use, yet rich on functionality, enabling you to save time and cut out the hassle when working with content and collaborating with others. 
+
+![Storyblok Edit mode with Shopware demo shop](https://a.storyblok.com/f/39898/3354x1820/2d773017bc/bildschirmfoto-2018-10-29-um-12-48-02.jpg)
+
+With Storyblok’s Components, you can easily collaborate and communicate the right story for your products. Tailor personal, emotionally- engaging and SEO boosting content for your product pages. Enrich your existing e-commerce solution now, because your customers expect more than generic product information.
 
 ## How to use
 
