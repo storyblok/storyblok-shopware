@@ -33,12 +33,12 @@ function smarty_function_storyblok($params, $template)
   // validate preview mode: https://www.storyblok.com/docs/Guides/storyblok-latest-js#how-to-validate-if-the-user-is-viewing-your-site-in-the-storyblo
   $sb = $_GET['_storyblok_tk'];
   if (!empty($sb)) {
-      $pre_token = $sb['space_id'] . ':' . $token . ':' . $sb['timestamp'];
-      $token = sha1($pre_token);
-      if ($token == $sb['token'] && (int)$sb['timestamp'] > strtotime('now') - 3600) {
-        $version = 'draft';
-      }
-  }
+    $pre_token = $sb['space_id'] . ':' . $token . ':' . $sb['timestamp'];
+    $control_token = sha1($pre_token);
+    if ($control_token == $sb['token'] && (int)$sb['timestamp'] > strtotime('now') - 3600) {
+      $version = 'draft';
+    }
+  } 
 
   // CURL can be exchanged for Guzzle or your favorite HTTP Request Client
   $curl = curl_init();

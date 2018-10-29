@@ -23,12 +23,12 @@ function smarty_function_editmode($params, $template)
   // validate preview mode: https://www.storyblok.com/docs/Guides/storyblok-latest-js#how-to-validate-if-the-user-is-viewing-your-site-in-the-storyblo
   $sb = $_GET['_storyblok_tk'];
   if (!empty($sb)) {
-      $pre_token = $sb['space_id'] . ':' . $token . ':' . $sb['timestamp'];
-      $token = sha1($pre_token);
-      if ($token == $sb['token'] && (int)$sb['timestamp'] > strtotime('now') - 3600) {
-        $version = 'draft';
-      }
-  }  
+    $pre_token = $sb['space_id'] . ':' . $token . ':' . $sb['timestamp'];
+    $control_token = sha1($pre_token);
+    if ($control_token == $sb['token'] && (int)$sb['timestamp'] > strtotime('now') - 3600) {
+      $version = 'draft';
+    }
+  } 
 
   // return editmode script only in draft mode
   // https://www.storyblok.com/docs/Guides/storyblok-latest-js#the-storyblok-bridge
