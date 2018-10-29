@@ -10,6 +10,17 @@ With Storyblok’s Components, you can easily collaborate and communicate the ri
 2. Copy the `storyblok.php` configuration file in your shopware base
 3. Add `hooks` in the `.tpl` you want to have Storyblok enabled
 
+## Configuration
+
+The value you can put in `storyblok.php`
+
+```
+<?php return array (
+  'token' => 'AwyueJSppBCDcfDb0yvOMwtt', // your own preview token
+  'version' => 'draft'                   // draft or published
+);
+```
+
 ## Template Function
 
 Add the below code in your `.tpl` file of choice (for example: `/themes/Frontend/Bare/frontend/custom/index.tpl`).
